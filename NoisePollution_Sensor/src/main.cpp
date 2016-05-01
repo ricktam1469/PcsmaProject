@@ -136,9 +136,9 @@ int main()
 
                health<<"noiseSensor=1;"<<"server=1;"<<"pollutionSensor=1;";
 
-                if(whileloopbreak_counter == numberOfiterations)
-			break;
-		whileloopbreak_counter = whileloopbreak_counter + 1;
+        //        if(whileloopbreak_counter == numberOfiterations)
+	//		break;
+	//	whileloopbreak_counter = whileloopbreak_counter + 1;
              
                 cout<<"Sending Health Status.....";
                 object.transferToFDB("health.txt");
